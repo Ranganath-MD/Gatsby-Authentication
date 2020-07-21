@@ -45,12 +45,14 @@ const Login = () => {
     return (
         <Layout>
             <SEO title="Login" />
-            <div style={{
-                width: `300px`,
-                margin: `0 auto`
-            }}>
-                <h1>Login</h1>
-                <form onSubmit={handleSubmit}>
+            <div >
+                <h1 style={{ textAlign: `center`}}>Login</h1>
+                <form onSubmit={handleSubmit}
+                    style={{
+                        width: `300px`,
+                        margin: `auto`
+                    }}
+                >
                     <div>
                         <input
                             style={inputStyles}
